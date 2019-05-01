@@ -52,21 +52,21 @@ html, body, #map_canvas {
   left: 0;
 }
 
-.welcome, .about {
+.welcome {
   text-align: center;
   position: relative;
-  top: 100px;
+  top: 15vh;
 }
 
 .welcome h1 {
   font-size: 48px;
-  font-weight: 200;
+  font-weight: 300;
   margin: 42px 0;
 }
 
 .welcome h2 {
   font-size: 26px;
-  margin: 42px 0;
+  margin: 12vh 0;
 }
 
 .welcome .btn {
@@ -74,6 +74,12 @@ html, body, #map_canvas {
   border-radius: 0;
   padding: 16px 26px;
   font-size: 16px;
+}
+
+.about {
+  text-align: center;
+  position: relative;
+  top: 100px;
 }
 
 .about .container {

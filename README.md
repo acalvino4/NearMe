@@ -8,3 +8,4 @@ Project began with a codecademy tutorial, to which I added
 * auto-center on your location (if you give your browser permission)
 * auto-search whenever map is moved
 * an enhanced welcome page
+* separate welcome and about pages

@@ -111,3 +111,14 @@ html, body, #map_canvas {
   display: inline-block;
   padding-bottom: 20px;
 }
+
+/* for iphone 5/SE and any others this small */
+@media screen and (max-width: 350px) {
+  .welcome, .about {
+    top: 12vh;
+  }
+
+  .about .container {
+    max-width: 80%;
+  }
+}
